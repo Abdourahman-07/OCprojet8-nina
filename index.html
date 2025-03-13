@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta name="description" content="Présentation de Nina Carducci, photographe professionnelle vendant ses services (shooting photo, retouches, album photos)" />
+    <meta name="description" content="Présentation de Nina Carducci, photographe professionnelle proposant ses services (shooting photo, retouches, album photos) en île-de-France" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/style.css" />
@@ -13,11 +13,46 @@
       rel="stylesheet"
     />
     <meta charset="UTF-8" />
+    <meta property="og:site_name" content="Nina Carducci" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://abdourahman-07.github.io/OCprojet8-nina/" />
+    <meta property="og:title" content="Nina Carducci - Photographe professionnelle" />
+    <meta property="og:description" content="Présentation de Nina Carducci, photographe professionnelle proposant ses services (shooting photo, retouches, album photos) en île-de-France" />
+    <meta property="og:image" content="./assets/images/nina.webp" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@ninaCarducci" />
+    <meta name="twitter:title" content="Nina Carducci - Photographe professionnelle" />
+    <meta name="twitter:description" content="Présentation de Nina Carducci, photographe professionnelle proposant ses services (shooting photo, retouches, album photos) en île-de-France" />
+    <meta name="twitter:image" content="./assets/images/nina.webp" />
+    <meta name="twitter:url" content="https://abdourahman-07.github.io/OCprojet8-nina/" />
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci",
+        "url": "https://abdourahman-07.github.io/OCprojet8-nina/",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Île-de-France",
+          "postalCode": "75000",
+          "addressCountry": "France"
+        },
+        "telephone": "+33556677889",
+        "email": "contact.nina@gmail.com",
+        "sameAs": [
+          "https://www.facebook.com/ninacarducci",
+          "https://www.instagram.com/ninacarducci.photo/?hl=fr"
+        ],
+        "image": "./assets/images/nina.webp",
+        "priceRange": "50€ - 400€",
+        "description": "Nina Carducci, photographe professionnelle proposant ses services (shooting photo, retouches, album photos) en île-de-France"
+      }
+      </script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha512-bnIvzh6FU75ZKxp0GXLH9bewza/OIw6dLVh9ICg0gogclmYGguQJWl8U30WpbsGTqbIiAwxTsbe76DErLq5EDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script defer src="./assets/maugallery.js"></script>
     <script defer src="./assets/scripts.js"></script>
-    <title>Nina Carducci</title>
+    <title>Nina Carducci - île-de-France</title>
   </head>
   <body>
     <header class="top-header">
@@ -72,7 +107,8 @@
             <div class="carousel-item active">
               <img
                 src="./assets/images/slider/businessman.webp"
-                srcset="./assets/images/slider-mobile/businessman.webp 768w"
+                srcset="./assets/images/slider-mobile/businessman.webp 768w, ./assets/images/slider/businessman.webp 769w"
+               
                 class="d-block w-100"
                 alt="Photo d'un homme d'affaires traversant la rue"
               />
@@ -80,7 +116,7 @@
             <div class="carousel-item">
               <img
                 src="./assets/images/slider/public-spectacle.webp"
-                srcset="./assets/images/slider-mobile/public-spectacle.webp 768w"
+                srcset="./assets/images/slider-mobile/public-spectacle.webp 768w, ./assets/images/slider/public-spectacle.webp 769w"
                 class="d-block w-100"
                 alt="Photo d'un public joyeux lors d'un évènement"
                 loading="lazy"
@@ -89,7 +125,7 @@
             <div class="carousel-item">
               <img
                 src="./assets/images/slider/wedding.webp"
-                srcset="./assets/images/slider-mobile/wedding.webp 768w"
+                srcset="./assets/images/slider-mobile/wedding.webp 768w, ./assets/images/slider/wedding.webp 769w"
                 class="d-block w-100"
                 alt="Photo d'un mariage"
                 loading="lazy"
@@ -315,5 +351,6 @@
         </div>
       </section>
     </main>
+    
   </body>
 </html>
